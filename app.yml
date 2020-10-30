@@ -43,9 +43,9 @@ spec:
         imagePullPolicy: Always
         env:
         - name: TREND_AP_KEY
-          value: $APPSEC_KEY
+          value: 46facc40-82cc-4b6e-8fb4-b4a47a1d5c69
         - name: TREND_AP_SECRET
-          value: $APPSEC_SECRET
+          value: 8eb2b1c0-dd94-4ed0-9595-76edbea576bf
         ports:
         - containerPort: 8080
       imagePullSecrets:
